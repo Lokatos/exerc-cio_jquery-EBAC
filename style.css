@@ -81,6 +81,7 @@ ul li {
     padding: 12px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 12px;
     cursor: pointer;
     transition: background 0.3s;
@@ -117,4 +118,21 @@ button:hover {
 
 .botao-cancelar:hover {
     background: #c82333;
+}
+
+.botao-deletar {
+    background: #ff3b3b;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.botao-deletar:hover {
+    background: #d32f2f;
 }
